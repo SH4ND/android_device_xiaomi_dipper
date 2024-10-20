@@ -1,4 +1,5 @@
 # Device proprietary files - from dipper's MIUI package 12.5.1.0.QEACNXM CN Stable version
+# Cat S62Pro package version: sdm660_64-user 11 RKQ1.210406.002 1.015.00, unless stated otherwise
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -28,12 +29,11 @@ vendor/firmware/tas2557_uCDSP_goer.bin
 vendor/etc/tas2557_aac.ftcfg
 vendor/etc/tas2557_goer.ftcfg
 
-# Bluetooth - from munch - RKQ1.211001.001
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|1229a014f7204074e32d6e403a3fc1e148730e2a
+# Bluetooth - from S62Pro
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|07d96d0d3c4a500b14ea3c97e02b9eb5ee2bbc4d
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|9940f1e850c2b82d569844ec6aeefebd89f33334
-vendor/lib64/libbtnv.so|7808463b58eb41ec50a0a2b81079229316ec11e3
-vendor/lib64/libsoc_helper.so|30dc6288ae0bdd74a2750dbde4362eb1c3cc1de7
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|c6be436d0f66aafd5be3aa51431d4fc02c50971d
+vendor/lib64/libbtnv.so|0c74a43550b939b9496b03b3285fa950cf560c48
 
 # Camera
 vendor/bin/remosaic_daemon
